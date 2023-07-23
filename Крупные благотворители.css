@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+}
+
+ul {
+    display: flex;
+    padding-top: 20px;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.ul_li {
+    margin: 0 15px;
+    justify-content: space-around;
+}
+
+.li_a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.li_a:hover {
+    color: #009FDF;
+    border-bottom: solid #009FDF 2px;
+    text-decoration: none;
+}
+.ul_button{
+    color: #fff;
+    background: #009FDF;
+    border-radius: 5px;
+    padding: 3px 15px;
+    border: none;
+    font-size: 20px;
+}
+.ul_button:hover{
+    color: #009FDF;
+    background: #fff;
+    border-radius: 5px;
+    padding: 3px 15px;
+    border: none;
+    font-size: 20px;
+    border-right: solid #009FDF;
+    border-left: solid #009FDF;
+    transition: 1s;
+}
+.nav_img{
+    width: 100%;
+    height: 15%;
+}
+.endaument{
+    max-width: 1600px;
+    width: 100%;
+    height: 250px;
+    background: url(../img/111.png) no-repeat center center / cover;
+    padding: 45px 0;
+}
+.endaument_h1{
+    color: #fff;
+    font-size: 45px;
+    margin:  0 150px;
+    font-weight: 700;
+}
+.endaument_h2{
+    color: #fff;
+    font-size: 40px;
+    margin:  0 150px;
+    font-weight: 700;
+}
+.linya{
+    height: 2px;
+    width: 1000px;
+    background: #E2EAEE; 
+    margin: 65px auto;
+}
+.sec_h1{
+    color: #000;
+    padding: 100px 220px;
+}
+.sec_p1{
+    padding: 20px 10px ;
+    color: darkgrey;
+}
+.sec_p2{
+    width: 250px;
+    padding: 0px 30px;
+}
+footer{
+    background: #eeeeee;
+    max-width: 1300px;
+    width: 100%;
+    margin: 50px auto;
+    height: 350px;
+}
+.misis_img{
+    margin-top: 90px;
+    margin-left: 35px;
+}
+.misis_img2{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.manzil{
+    margin: 85px 0;
+}
+.manzil_p{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.manzil_p2{
+    font-size: 19px;
+    margin: 0 auto;
+}
+.material_p{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.material_p2{
+    font-size: 16px;
+    margin: 0 auto;
+}
+.material{
+    margin: 85px 0;
+}
+.aloqa{
+    margin: 85px 0;
+}
+.aloqa_p{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.aloqa_p2{
+    font-size: 16px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.aloqa_p3{
+    font-size: 16px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+}
+.aloqa_p3:hover{
+    font-size: 16px;
+    margin: 0 auto;
+    color: #009FDF;
+    text-decoration: none;
+}

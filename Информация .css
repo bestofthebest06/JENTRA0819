@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.25s;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
+
+ul {
+    display: flex;
+    padding-top: 20px;
+}
+
+header {
+    height: 350px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.ul_li {
+    padding: 0 20px;
+    justify-content: space-around;
+}
+
+.li_a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.li_a:hover {
+    color: #009FDF;
+    border-bottom: solid #009FDF 2px;
+    text-decoration: none;
+}
+
+.ul_button {
+    color: #fff;
+    background: #009FDF;
+    border-radius: 5px;
+    /* padding: 3px 15px; */
+    width: 150px;
+    border: none;
+    font-size: 18px;
+}
+.nav_img{
+    width: 100%;
+    height: 15%;
+}
+
+.ul_button:hover {
+    color: #009FDF;
+    background: #fff;
+    border-radius: 5px;
+    /* padding: 3px 15px; */
+    border: 1px solid darkblue;
+    font-size: 18px;
+}
+
+.endaument {
+    width: 100%;
+    height: 250px;
+    background: url(../img/111.png) no-repeat center center / cover;
+    padding: 45px 0;
+}
+
+.endaument_h1 {
+    color: #fff;
+    font-size: 45px;
+    margin: 0 150px;
+    font-weight: 700;
+}
+
+.endaument_h2 {
+    color: #fff;
+    font-size: 40px;
+    margin: 0 150px;
+    font-weight: 700;
+}
+
+.linya {
+    height: 2px;
+    width: 950px;
+    background: #E2EAEE;
+    margin: 65px 150px;
+}
+
+.box {
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px #E2EAEE solid;
+}
+
+.boks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boks_button {
+    border: none;
+    background: #00000000;
+    width: 200px;
+    height: 30px;
+    padding-bottom: 60px;
+}
+
+.boks_button:hover {
+    border: none;
+    color: blue;
+    background: #00000000;
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid blue;
+}
+
+.x-tech {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.208);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1250px;
+    height: 1.5%;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    height: 198px;
+    margin: 0 10%;
+}
+
+.sec_4 {
+    height: 160px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.sec_3 {
+    height: 260px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.timeline {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.208);
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.gaz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+span {
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gaz_p {
+    width: 900px;
+}
+
+.sec_2 {
+    height: 260px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.boss {
+    background: #d1cdcd;
+    width: 550px;
+    height: 300px;
+    border-top: 3px solid blue;
+}
+
+.document {
+    font-size: 21px;
+    width: 550px;
+    padding: 35px 80px;
+}
+
+.addres {
+    display: flex;
+    align-items: center;
+}
+
+.sec_1 {
+    height: 460px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.oxiri_2 {
+    width: 150px;
+}
+
+.oxiri_3 {
+    width: 180px;
+}
+
+.oxiri_1 {
+    width: 280px;
+}
+
+footer {
+    background: #eeeeee;
+    max-width: 1300px;
+    width: 100%;
+    margin: 50px auto;
+    height: 350px;
+}
+
+.misis_img {
+    margin-top: 90px;
+    margin-left: 35px;
+}
+
+.misis_img2 {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.manzil {
+    margin: 85px 0;
+}
+
+.manzil_p {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.manzil_p2 {
+    font-size: 19px;
+    margin: 0 auto;
+}
+
+.material_p {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.material_p2 {
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.material {
+    margin: 85px 0;
+}
+
+.aloqa {
+    margin: 85px 0;
+}
+
+.aloqa_p {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.aloqa_p2 {
+    font-size: 16px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.aloqa_p3 {
+    font-size: 16px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.aloqa_p3:hover {
+    font-size: 16px;
+    margin: 0 auto;
+    color: #009FDF;
+    text-decoration: none;
+}   
